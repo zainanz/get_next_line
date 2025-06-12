@@ -55,7 +55,7 @@ int main(void)
 
 ## 📝 Notes
 
-- The function must handle multiple file descriptors simultaneously.
+- The function must handle multiple file descriptors simultaneously in bonus.
 - Proper memory management is essential — no leaks allowed.
 - You must not read more data than necessary.
 
