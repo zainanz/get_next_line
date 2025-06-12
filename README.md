@@ -20,7 +20,7 @@ char *get_next_line(int fd);
 The size of the internal read buffer can be specified at compile time:
 
 ```bash
-cc -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
+cc -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c your_main.c
 ```
 
 If `BUFFER_SIZE` is not defined during compilation, the code uses a default value set in the source files.
